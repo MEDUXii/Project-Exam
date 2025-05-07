@@ -1,0 +1,158 @@
+/* Reset some default styles for consistency */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+
+  
+  .container {
+    width: 100%;
+    height: 80px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    overflow: auto;
+    text-align: center;
+  }
+ 
+  .titlenav{
+    float: left;
+    width: 10%;
+    margin-left: 100px;
+  }
+  .listnav{
+    width: 70%;
+    height: 40px;
+    float: left;
+    display: inline;
+  }
+  nav ul {
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 5px;
+    display: inline;
+  }
+
+  .logo1{
+    width: 3%;
+    float: left;
+    font-size: 25px; 
+
+  }
+  .logo2{
+    width: 3%;
+    float: left;
+    font-size: 25px; 
+
+  }  .logo3{
+    width: 3%;
+    float: left;
+    font-size: 25px; 
+
+  }
+  .logos a{
+    width: 50px;
+    height: 40px;
+    margin-left: auto;
+  }
+  .logos a i{
+    line-height: 40px;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .hero {
+    background-image: url('../img/pexels-gary-barnes-6231630.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .contact-form button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+  }
